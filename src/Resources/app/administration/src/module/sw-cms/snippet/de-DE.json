@@ -4,6 +4,14 @@
             "imageText": {
                 "imageTextReversed": {
                     "label": "Text & Bild mit zwei Spalten"
+                },
+                "imageTextCustom": {
+                    "label": "Bild & Text mit zwei Spalten"
+                }
+            },
+            "text": {
+                "textFour": {
+                    "label": "Text mit vier Spalten"
                 }
             }
         }

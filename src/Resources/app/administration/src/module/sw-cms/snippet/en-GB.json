@@ -3,7 +3,15 @@
         "blocks": {
             "imageText": {
                 "imageTextReversed": {
-                    "label": "Two columns text & image "
+                    "label": "Two columns text & image"
+                },
+                "imageTextCustom": {
+                    "label": "Two columns image & text"
+                }
+            },
+            "text": {
+                "textFour": {
+                    "label": "Four columns text"
                 }
             }
         }
