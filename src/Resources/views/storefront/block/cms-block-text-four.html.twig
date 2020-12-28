@@ -33,7 +33,6 @@
 
     {% block block_text_four_bottom_right %}
         {% set element = block.slots.getSlot('bottomRight') %}
-
         <div class="col-md-6" data-cms-element-id="{{ id }}">
             {% block block_text_two_column_bottom_right_inner %}
                 {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
