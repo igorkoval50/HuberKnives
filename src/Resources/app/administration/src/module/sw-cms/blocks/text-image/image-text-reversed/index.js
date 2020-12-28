@@ -22,7 +22,6 @@ Shopware.Service('cmsService').registerCmsBlock({
                     content: {
                         source: 'static',
                         value: `
-                             <div>
                                 <p><span style="color:#EB6807">+</span> HANDGESCHMIEDETE SEELENSTÜCKE</p>
                                 <h2>Messerschmied Martin Huber</h2>
                                 <p>Ich habe mich auf die Herstellung handgemachter Küchenmesser, Jagdmesser und Outdoormesser spezialisiert.
@@ -30,12 +29,23 @@ Shopware.Service('cmsService').registerCmsBlock({
                                     Der Großteil unserer Arbeiten sind auf Kundenwunsch hin gefertigte Einzelstücke. Gerne fertigen wir auch für Sie ein Unikat nach Ihren Wunschvorstellungen.
                                     Ich freue mich auf Ihre Anfrage!</p>
                                 <p>Erfahre mehr <span style="color: #EB6807;"> > </span></p>
-                            </div>
                         `.trim()
                     }
                 }
             }
         },
-        right: 'image'
+        right: {
+            type: 'image',
+            default: {
+                config: {
+                    displayMode: { source: 'static', value: 'standard' }
+                },
+                data: {
+                    media: {
+                        url: '/huberknives/static/img/cms/person.jpg'
+                    }
+                }
+            }
+        }
     }
 });
