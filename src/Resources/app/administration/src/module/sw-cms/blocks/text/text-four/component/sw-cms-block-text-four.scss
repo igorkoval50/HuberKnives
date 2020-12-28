@@ -2,18 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
-    background: #000;
-    margin: -20px;
-    padding: 20px;
-    .sw-text-editor .sw-text-editor__content-editor {
-        p, h2, h3, span {
-            color: #fff;
-        }
-    }
     .headline-uppercase {
         text-transform: uppercase;
-    }
-    .sw-cms-slot__actions {
-        background: #000;
     }
 }
