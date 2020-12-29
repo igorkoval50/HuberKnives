@@ -22,13 +22,13 @@ Shopware.Service('cmsService').registerCmsBlock({
                     content: {
                         source: 'static',
                         value: `
-                                <p><span style="color:#EB6807">+</span> HANDGESCHMIEDETE SEELENSTÜCKE</p>
+                                <p class="headline-uppercase"><span style="color:#EB6807">+</span> HANDGESCHMIEDETE SEELENSTÜCKE</p>
                                 <h2>Messerschmied Martin Huber</h2>
                                 <p>Ich habe mich auf die Herstellung handgemachter Küchenmesser, Jagdmesser und Outdoormesser spezialisiert.
                                     Mein Team und ich schmieden alle Klingen selbst - von der Herstellung aufwändiger Damaststähle über die Formgebung bis hin zur Detailarbeit findet der ganze Prozess in meiner Werkstatt in Garsten in Oberösterreich statt.
                                     Der Großteil unserer Arbeiten sind auf Kundenwunsch hin gefertigte Einzelstücke. Gerne fertigen wir auch für Sie ein Unikat nach Ihren Wunschvorstellungen.
                                     Ich freue mich auf Ihre Anfrage!</p>
-                                <p>Erfahre mehr <span style="color: #EB6807;"> > </span></p>
+                                <a href="#">Erfahre mehr <span style="color: #EB6807;"> > </span></a>
                         `.trim()
                     }
                 }

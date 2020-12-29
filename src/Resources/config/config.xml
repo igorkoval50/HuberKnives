@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Footer - Social Links</title>
+        <title lang="de-DE">Fußzeile - Sozial Links</title>
+
+        <input-field>
+            <name>instagramField</name>
+            <label>Instagram url</label>
+            <label lang="de-DE">Instagram url</label>
+            <defaultValue>https://www.instagram.com/martinhuber_knives/</defaultValue>
+        </input-field>
+
+        <input-field>
+            <name>facebookField</name>
+            <label>facebook url</label>
+            <label lang="de-DE">facebook url</label>
+            <defaultValue>https://www.facebook.com/messerhuber/</defaultValue>
+        </input-field>
+    </card>
+
+</config>

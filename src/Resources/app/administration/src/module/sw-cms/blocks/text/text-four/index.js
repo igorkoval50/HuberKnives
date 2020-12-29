@@ -23,7 +23,7 @@ Shopware.Service('cmsService').registerCmsBlock({
                         source: 'static',
                         value: `
                                 <p class="headline-uppercase"><span style="color:#EB6807">+</span> Hier fehlt eine Subheadline</p>
-                                <h2>Handarbeit</h2>
+                                <h3>Handarbeit</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                         `.trim()
                     }
@@ -38,7 +38,7 @@ Shopware.Service('cmsService').registerCmsBlock({
                         source: 'static',
                         value: `
                                 <p class="headline-uppercase"><span style="color:#EB6807">+</span> Hier fehlt eine Subheadline</p>
-                                <h2>Materialien</h2>
+                                <h3>Materialien</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                         `.trim()
                     }
@@ -53,7 +53,7 @@ Shopware.Service('cmsService').registerCmsBlock({
                         source: 'static',
                         value: `
                                 <p class="headline-uppercase"><span style="color:#EB6807">+</span> Hier fehlt eine Subheadline</p>
-                                <h2>Qualität</h2>
+                                <h3>Qualität</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                         `.trim()
                     }
@@ -68,7 +68,7 @@ Shopware.Service('cmsService').registerCmsBlock({
                         source: 'static',
                         value: `
                                 <p class="headline-uppercase"><span style="color:#EB6807">+</span> Hier fehlt eine Subheadline</p>
-                                <h2>Persönlichkeit</h2>
+                                <h3>Persönlichkeit</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                         `.trim()
                     }

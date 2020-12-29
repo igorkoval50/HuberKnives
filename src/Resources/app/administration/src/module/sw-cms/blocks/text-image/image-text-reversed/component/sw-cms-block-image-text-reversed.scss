@@ -2,4 +2,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
+    a {
+        color: #52667a;
+        text-decoration: none;
+        margin-top: 20px;
+        display: block;
+    }
 }
