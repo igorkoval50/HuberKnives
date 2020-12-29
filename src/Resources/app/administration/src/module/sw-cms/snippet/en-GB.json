@@ -22,6 +22,11 @@
                 "textHeadline": {
                     "label": "Custom headline"
                 }
+            },
+            "form": {
+                "formTwo": {
+                    "label": "Form with text"
+                }
             }
         }
     }

@@ -22,6 +22,11 @@
                 "textOne": {
                     "label": "Text mit einer Spalte"
                 }
+            },
+            "form": {
+                "formTwo": {
+                    "label": "Formular mit Text"
+                }
             }
         }
     }

@@ -1,0 +1,22 @@
+{% block block_form_two %}
+    {% set columns = 4 %}
+    {% set id = element.id %}
+    {% block block_form_two_top_left %}
+        {% set element = block.slots.getSlot('left') %}
+
+        <div class="col-md-6" data-cms-element-id="{{ id }}">
+            {% block block_text_two_left_inner %}
+                {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+            {% endblock %}
+        </div>
+    {% endblock %}
+
+    {% block block_text_two_right %}
+        {% set element = block.slots.getSlot('right') %}
+        <div class="col-md-6" data-cms-element-id="{{ id }}">
+            {% block block_text_two_right_inner %}
+                {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+            {% endblock %}
+        </div>
+    {% endblock %}
+{% endblock %}
