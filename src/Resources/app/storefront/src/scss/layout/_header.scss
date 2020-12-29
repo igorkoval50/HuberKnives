@@ -1,0 +1,142 @@
+@media all and (min-width: 1470px) {
+  .header-search-col-one {
+    min-width: 350px;
+    max-width: 350px;
+  }
+}
+@media all and (max-width: 1700px) {
+  .header-search-col-one {
+    min-width: 300px;
+    max-width: 300px;
+  }
+}
+
+#searchCollapse {
+  position: absolute;
+  height: 100%;
+  left: auto;
+  right: 0;
+  transform: translateX(125%);
+  top: 0;
+  min-height: 100%;
+  transition: 300ms ease-in-out;
+  display: block !important;
+  z-index: -1;
+  opacity: 0;
+  width: 75%;
+}
+#searchCollapse.collapsing {
+  display: block;
+}
+#searchCollapse.collapse, #searchCollapse.collapsing {
+  left: auto;
+  transform: translateX(35%);
+  transition: 300ms ease-in-out;
+  right: 0;
+}
+
+#searchCollapse.show {
+  left: auto;
+  transform: translateX(0);
+  transition: 300ms ease-in-out;
+  z-index: 10;
+  opacity: 1;
+  right: -40px;
+}
+
+#searchCollapse.collapsed  {
+  transition: 300ms ease-in-out;
+}
+.header-search-col-one {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 0;
+  .fly-label {
+    width: 88%;
+  }
+  .input-group-append {
+    width: 12%;
+  }
+  .btn {
+    padding-right: 0;
+  }
+}
+@media all and (max-width: 1470px) {
+  .header-search-col-one {
+    position: absolute;
+    right: 290px;
+  }
+}
+@media all and (max-width: 992px) {
+  #searchCollapse.show {
+    left: 97px;
+  }
+  #searchCollapse {
+    .header-search {
+      max-width: 250px;
+    }
+  }
+  .header-search-col-one {
+    right: 230px;
+  }
+}
+@media all and (max-width: 667px) {
+  .header-search-col-one {
+    display: none;
+  }
+}
+.header-search {
+  .header-search-btn {
+    border: 1px solid $background;
+    padding: 0;
+    width: 40px;
+    border-radius: 0;
+  }
+}
+
+.navigation-flyouts, .home-link, .header-search-btn, .header-search-col-one .input-group-append {
+  display: none;
+}
+
+.header-search-input {
+  background: $background;
+  border: 1px solid $grey;
+}
+.header-search-input:focus, .header-search-input:focus ~ .input-group-append .header-search-btn {
+  border-color: $yellow;
+  background: $background;
+}
+.header-actions-btn:hover, .header-actions-btn:hover .icon {
+  border-color: transparent;
+  color: $yellow;
+}
+.icon-search {
+  svg {
+    color: #D9DADB;
+    transform: rotate(280deg);
+    top: 5px;
+  }
+}
+.scroll-up-button.is-visible {
+  display: none;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bar-currency {
+  display: none;
+}
+.account-menu-btn {
+  .icon {
+    svg {
+      color: $grey;
+    }
+    &:hover {
+      svg {
+        color: $yellow;
+      }
+    }
+  }
+}

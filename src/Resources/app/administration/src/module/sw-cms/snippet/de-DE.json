@@ -15,6 +15,12 @@
                 },
                 "textHeadline": {
                     "label": "Benutzerdefinierte Überschrift"
+                },
+                "textTwo": {
+                    "label": "Text mit zwei Spalten"
+                },
+                "textOne": {
+                    "label": "Text mit einer Spalte"
                 }
             }
         }

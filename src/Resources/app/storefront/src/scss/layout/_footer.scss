@@ -1,0 +1,24 @@
+.footer-main {
+  position: relative;
+  .scroll-wrapper-arrow {
+    position: absolute;
+    right: 135px;
+    bottom: 89px;
+    cursor: pointer;
+  }
+  @media (max-width: 1612px) {
+    .scroll-wrapper-arrow {
+      right: 5%;
+    }
+  }
+  @media (max-width: 667px) {
+    .scroll-wrapper-arrow {
+      right: 7%;
+      bottom: auto;
+      top: 25px;
+      svg {
+        width: 22px;
+      }
+    }
+  }
+}
