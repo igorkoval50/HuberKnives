@@ -1,0 +1,13 @@
+{% block block_text_one %}
+    {% set columns = 1 %}
+    {% set id = element.id %}
+    {% block block_text_one_top_left %}
+        {% set element = block.slots.getSlot('left') %}
+
+        <div class="col-md-6" data-cms-element-id="{{ id }}">
+            {% block block_text_one_left_inner %}
+                {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+            {% endblock %}
+        </div>
+    {% endblock %}
+{% endblock %}
