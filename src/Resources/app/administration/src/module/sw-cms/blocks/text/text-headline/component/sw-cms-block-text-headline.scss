@@ -1,0 +1,10 @@
+.sw-cms-block-text-headline {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    text-align: center;
+    .headline-uppercase {
+        text-transform: uppercase;
+        text-align: center;
+    }
+}

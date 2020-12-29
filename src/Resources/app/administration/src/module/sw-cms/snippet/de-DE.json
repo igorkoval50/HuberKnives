@@ -12,6 +12,9 @@
             "text": {
                 "textFour": {
                     "label": "Text mit vier Spalten"
+                },
+                "textHeadline": {
+                    "label": "Benutzerdefinierte Überschrift"
                 }
             }
         }

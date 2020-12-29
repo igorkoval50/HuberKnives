@@ -12,6 +12,9 @@
             "text": {
                 "textFour": {
                     "label": "Four columns text"
+                },
+                "textHeadline": {
+                    "label": "Custom headline"
                 }
             }
         }

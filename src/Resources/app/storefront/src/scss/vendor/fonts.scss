@@ -1,6 +1,8 @@
 $yellow: #EB6807;
 $grey: #D9DADB;
 $background: #090909;
+$black: #0C0C0C;
+$black-second: #101010;
 
 @font-face {
     font-family: 'NeutrifStudio';
@@ -108,3 +110,21 @@ a {
         line-height: 19px;
     }
 }
+body {
+    .main-navigation-link.active {
+        color: $yellow;
+        .main-navigation-link-text {
+            border-color: $yellow;
+        }
+    }
+    .main-navigation-link:hover, .main-navigation-link.is-open {
+        color: $yellow;
+    }
+    .icon-bag svg {
+        color: $yellow;
+    }
+    .header-cart-total {
+        color: $yellow;
+    }
+}
+
