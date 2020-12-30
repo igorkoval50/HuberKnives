@@ -1,5 +1,9 @@
 .footer-main {
   position: relative;
+  border-top: 1px solid $black-second;
+    #footerColumns {
+        border: none;
+    }
   .scroll-wrapper-arrow {
     position: absolute;
     right: 135px;

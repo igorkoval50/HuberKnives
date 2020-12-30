@@ -3,6 +3,7 @@ $grey: #D9DADB;
 $background: #090909;
 $black: #0C0C0C;
 $black-second: #101010;
+$border: #C5C5C5;
 
 @font-face {
     font-family: 'NeutrifStudio';
@@ -63,9 +64,10 @@ a {
 }
 
 @media screen and(min-width: 1024px) {
-    h1, h2, h3{
+    h1, h2, h3, .card-title {
         font-size: 28px;
         line-height: 34px;
+        font-weight: 300;
     }
     h4 {
         font-size: 22px;
@@ -75,12 +77,16 @@ a {
         font-size: 16px;
         line-height: 24px;
     }
+    .card-title {
+        border: none;
+    }
 }
 
 @media screen and(max-width: 1024px) {
-    h1, h2, h3 {
+    h1, h2, h3, .card-title  {
         font-size: 26px;
         line-height: 32px;
+        font-weight: 300;
     }
     h4 {
         font-size: 21px;
@@ -97,9 +103,10 @@ a {
         font-size: 12px;
         line-height: 13px;
     }
-    h1, h2, h3 {
+    h1, h2, h3, .card-title {
         font-size: 24px;
         line-height: 30px;
+        font-weight: 300;
     }
     h4 {
         font-size: 19px;
@@ -125,6 +132,32 @@ body {
     }
     .header-cart-total {
         color: $yellow;
+    }
+}
+
+.form-control {
+    border: 1px solid $border;
+    background: transparent;
+    color: $grey;
+    &:focus {
+        color: $grey;
+        background: transparent;
+    }
+}
+.form-group {
+    .custom-select:invalid, .custom-select {
+        color: $grey;
+    }
+    select {
+        background-color: transparent;
+        color: $grey;
+        border-color: $grey !important;
+        &:focus {
+            border-color: $yellow !important;
+        }
+    }
+    option {
+        color: $background;
     }
 }
 
