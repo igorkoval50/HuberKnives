@@ -33,6 +33,19 @@ Shopware.Service('cmsService').registerCmsBlock({
                     }
                 }
             }
+        },
+        top: {
+            type: 'text',
+            default: {
+                config: {
+                    content: {
+                        source: 'static',
+                        value: `
+                        <p class="headline-uppercase"><span style="color:#EB6807">+</span> Kontakt</p>
+                        `.trim()
+                    }
+                }
+            }
         }
     }
 });

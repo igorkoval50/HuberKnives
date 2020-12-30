@@ -1,10 +1,11 @@
 {% block block_form_two %}
-    {% set columns = 4 %}
+    {% set columns = 2 %}
     {% set id = element.id %}
     {% block block_form_two_top_left %}
         {% set element = block.slots.getSlot('left') %}
-
-        <div class="col-md-6" data-cms-element-id="{{ id }}">
+        {% set elements = block.slots.getSlot('top') %}
+        <div class="col-md-6 form" data-cms-element-id="{{ id }}">
+            {{ elements.data.content|raw }}
             {% block block_text_two_left_inner %}
                 {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
             {% endblock %}
