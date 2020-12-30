@@ -1,0 +1,27 @@
+.cms-block-text-address {
+    .text-adress {
+        display: flex;
+        p, span {
+            font-size: 21px;
+            line-height: 25px;
+            margin-bottom: 0;
+        }
+    }
+    .left {
+        margin-right: 38px;
+    }
+    .right {
+        .cms-element-text {
+            p:first-child {
+                .color-yellow {
+                    margin-right: 25px;
+                }
+            }
+            P:last-child {
+                .color-yellow {
+                    margin-right: 19px;
+                }
+            }
+        }
+    }
+}

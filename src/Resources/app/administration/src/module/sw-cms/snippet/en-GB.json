@@ -19,6 +19,9 @@
                 "textOne": {
                     "label": "One columns text"
                 },
+                "textAdress": {
+                    "label": "Address info"
+                },
                 "textHeadline": {
                     "label": "Custom headline"
                 }

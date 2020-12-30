@@ -21,6 +21,9 @@
                 },
                 "textOne": {
                     "label": "Text mit einer Spalte"
+                },
+                "textAdress": {
+                    "label": "Adressinfo"
                 }
             },
             "form": {

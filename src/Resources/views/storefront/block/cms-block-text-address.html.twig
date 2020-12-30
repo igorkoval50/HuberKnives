@@ -1,0 +1,24 @@
+{% block block_text_adress %}
+    {% set columns = 2 %}
+    {% set id = element.id %}
+    {% block block_text_adress_left %}
+        {% set element = block.slots.getSlot('left') %}
+        <div class="col-md-6 text-adress">
+
+        <div class="left" data-cms-element-id="{{ id }}">
+            {% block block_adress_left_inner %}
+                {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+            {% endblock %}
+        </div>
+    {% endblock %}
+
+{% block block_text_adress_right %}
+    {% set element = block.slots.getSlot('right') %}
+    <div class="right" data-cms-element-id="{{ id }}">
+        {% block block_text_adress_inner %}
+            {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+        {% endblock %}
+    </div>
+    {% endblock %}
+    </div>
+{% endblock %}

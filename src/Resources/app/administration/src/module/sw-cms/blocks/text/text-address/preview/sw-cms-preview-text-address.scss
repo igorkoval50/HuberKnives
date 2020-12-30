@@ -1,18 +1,15 @@
-.sw-cms-preview-text-headline {
+.sw-cms-preview-text-address {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
     padding: 10px;
     background: #090909;
     color: #D9DADB;
-    text-align: center;
     .headline-uppercase {
         text-transform: uppercase;
-        text-align: center;
     }
     h2 {
         color: #D9DADB;
-        text-align: center;
     }
     .color-yellow {
         color: #EB6807;
