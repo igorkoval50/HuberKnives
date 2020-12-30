@@ -1,0 +1,11 @@
+{% block sw_cms_block_text_two_button %}
+    <div class="sw-cms-block-text-two-button">
+        <div class="two-element">
+            <slot name="left"></slot>
+            <slot name="right"></slot>
+        </div>
+        <div class="sw-cms-block-text-two-button-center">
+            <slot name="bottom"></slot>
+        </div>
+    </div>
+{% endblock %}

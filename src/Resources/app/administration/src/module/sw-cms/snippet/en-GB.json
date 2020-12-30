@@ -16,10 +16,13 @@
                 "textTwo": {
                     "label": "Two columns text"
                 },
+                "textTwoButton": {
+                    "label": "Two columns text and button"
+                },
                 "textOne": {
                     "label": "One columns text"
                 },
-                "textAdress": {
+                "textAddress": {
                     "label": "Address info"
                 },
                 "textHeadline": {

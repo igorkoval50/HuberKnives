@@ -19,10 +19,13 @@
                 "textTwo": {
                     "label": "Text mit zwei Spalten"
                 },
+                "textTwoButton": {
+                    "label": "Text und Schaltfläche mit zwei Spalten"
+                },
                 "textOne": {
                     "label": "Text mit einer Spalte"
                 },
-                "textAdress": {
+                "textAddress": {
                     "label": "Adressinfo"
                 }
             },

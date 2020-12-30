@@ -1,0 +1,27 @@
+.sw-cms-block-text-two-button {
+    .headline-uppercase {
+        text-transform: uppercase;
+    }
+    .color-yellow, span {
+        color: #EB6807;
+    }
+    .two-element {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+    .sw-cms-block-text-two-button-center {
+        .sw-text-editor__content-editor {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            .btn-yellow {
+                background: #EB6807;
+                color: #090909;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+

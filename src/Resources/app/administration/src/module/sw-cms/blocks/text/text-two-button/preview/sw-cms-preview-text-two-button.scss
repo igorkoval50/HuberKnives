@@ -1,0 +1,33 @@
+.sw-cms-preview-text-two-button {
+    padding: 10px;
+    background: #090909;
+    color: #D9DADB;
+   .inside {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-gap: 20px;
+       .headline-uppercase {
+           text-transform: uppercase;
+       }
+       h2 {
+           color: #D9DADB;
+       }
+       .color-yellow {
+           color: #EB6807;
+       }
+   }
+    .sw-cms-btn {
+        display: flex;
+        justify-content: center;
+        .btn {
+            background-color: #eb6807;
+            color: #090909;
+            border-radius: 0;
+            padding: 7px 5px;
+            border: 1px solid #eb6807;
+            margin-top: 12px;
+        }
+    }
+}
+
+
