@@ -17,5 +17,51 @@
   ],
   "asset": [
     "app/storefront/src/assets"
-  ]
+  ],
+    "config": {
+        "blocks": {
+            "huberTheme": {
+                "label": {
+                    "en-GB": "Theme custom settings",
+                    "de-DE": "Theme custom settings"
+                }
+            }
+        },
+        "sections": {
+            "huberTopHeader": {
+                "label": {
+                    "en-GB": "Top Header section",
+                    "de-DE": "Top Header section"
+                }
+            },
+            "huberExtraMenu": {
+                "label": {
+                    "en-GB": "Extra Menu",
+                    "de-DE": "Extra Menu"
+                }
+            }
+        },
+        "tabs": {
+            "huberHeader": {
+                "label": {
+                    "en-GB": "Header",
+                    "de-DE": "Header"
+                }
+            }
+        },
+        "fields": {
+            "huber-phone": {
+                "label": {
+                    "en-GB": "Custom logo",
+                    "de-DE": "Benutzerdefiniertes Logo"
+                },
+                "type": "text",
+                "value": "MARTIN HUBER KNIVES",
+                "editable": true,
+                "tab": "huberHeader",
+                "block": "huberTheme",
+                "section": "huberTopHeader"
+            }
+        }
+    }
 }

@@ -26,3 +26,57 @@
 
 {#Hide footer bottom#}
 {% block layout_footer_bottom %}{% endblock %}
+
+
+{% block layout_footer_inner_container %}
+    {% block layout_footer_navigation %}
+        <div id="footerColumns"
+             class="row footer-columns"
+             data-collapse-footer="true">
+            {% block layout_footer_navigation_columns %}
+                <div class="footer-column-headline footer-headline footer-custom-headline">Shopübersicht</div>
+                {% for root in page.footer.navigation.tree %}
+                    {% block layout_footer_navigation_column %}
+                        <div class="col-md-3 footer-column js-footer-column">
+                            {% block layout_footer_navigation_information_headline %}
+                                <div class="footer-column-headline footer-headline js-collapse-footer-column-trigger"
+                                     data-target="#collapseFooterTitle{{ loop.index }}"
+                                     aria-expanded="true"
+                                     aria-controls="collapseFooter{{ loop.index }}">
+
+                                    {{ root.category.translated.name }}
+                                    {% block layout_footer_navigation_information_icons %}
+                                     {{ parent() }}
+                                    {% endblock %}
+                                </div>
+                            {% endblock %}
+
+                            {% block layout_footer_navigation_information_content %}
+                                {{ parent() }}
+                            {% endblock %}
+                        </div>
+                    {% endblock %}
+                {% endfor %}
+            {% endblock %}
+            {% block layout_footer_navigation_hotline %}
+                <div class="col-md-3 footer-column js-footer-column">
+                    {% block layout_footer_navigation_hotline_headline %}
+                    {{ parent() }}
+                    {% endblock %}
+
+                    {% block layout_footer_navigation_hotline_content %}
+                        {{ parent() }}
+                    {% endblock %}
+                </div>
+            {% endblock %}
+
+            <div class="col-md-3 footer-column js-footer-column">
+                <h3 class="footer-column-headline footer-headline js-collapse-footer-column-trigger">Newsletter (jederzeit abmeldbar)</h3>
+                {% block layout_header_top_bar_language %}
+                    {% sw_include '@Storefront/storefront/layout/header/actions/language-widget.html.twig' %}
+                {% endblock %}
+            </div>
+        </div>
+    {% endblock %}
+{% endblock %}
+

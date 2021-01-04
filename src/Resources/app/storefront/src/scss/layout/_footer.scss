@@ -1,6 +1,19 @@
 .footer-main {
   position: relative;
   border-top: 1px solid $black-second;
+    padding-top: 80px;
+    #collapseFooterHotlineTitle {
+
+    }
+    #footerColumns {
+        position: relative;
+    }
+    .footer-custom-headline {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+    }
     #footerColumns {
         border: none;
     }
@@ -25,4 +38,38 @@
       }
     }
   }
+    .footer-column-headline {
+        color: $grey;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .language-group {
+        display: flex;
+        flex-direction: row-reverse;
+        .dropdown-item {
+            padding: 0;
+            padding-right: 28px;
+            text-transform: uppercase;
+            position: relative;
+            font-size: 16px;
+            &:before {
+                content: "";
+                position: absolute;
+                right: 14px;
+                top: 0;
+                width: 1px;
+                height: 100%;
+                background: $grey;
+                display: block;
+            }
+        }
+        .dropdown-item:first-child {
+            &:before {
+                display: none;
+            }
+        }
+        .item-checked {
+            color: $yellow;
+        }
+    }
 }

@@ -1,0 +1,16 @@
+{% sw_extends '@Storefront/storefront/layout/header/logo.html.twig' %}
+{% block layout_header_logo_inner %}
+    <div class="header-logo-main">
+        {% if shopware.theme['huber-phone'] %}
+            <a class="header-logo-main-link"
+               href="{{ path('frontend.home.page') }}"
+               title="{{ "header.logoLink"|trans|striptags }}">
+                {% block layout_header_logo_image %}
+                    {{ shopware.theme['huber-phone'] }}
+                {% endblock %}
+            </a>
+        {% else %}
+            {{ parent() }}
+        {% endif %}
+    </div>
+{% endblock %}
