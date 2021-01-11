@@ -16,18 +16,21 @@
                       %}
                   {% endblock %}
 
-                  {% block cms_form_contact_input_first_name %}
+                  <div class="form-row">
                       {% block cms_form_contact_input_subject %}
-                          {% sw_include '@Storefront/storefront/element/cms-element-form/form-components/cms-element-form-input.html.twig'
-                              with {
-                              required: false,
-                              fieldName: 'subject',
-                              additionalClass: 'col-12',
-                              label: 'contact.subjectLabel',
-                              placeholder: 'contact.subjectPlaceholder'
-                          }
-                          %}
                       {% endblock %}
+                  </div>
+
+                  {% block cms_form_contact_input_first_name %}
+                      {% sw_include '@Storefront/storefront/element/cms-element-form/form-components/cms-element-form-input.html.twig'
+                          with {
+                          required: false,
+                          fieldName: 'subject',
+                          additionalClass: 'col-12',
+                          label: 'contact.subjectLabel',
+                          placeholder: 'contact.subjectPlaceholder'
+                      }
+                      %}
 
                       {% sw_include '@Storefront/storefront/element/cms-element-form/form-components/cms-element-form-input.html.twig'
                           with {
