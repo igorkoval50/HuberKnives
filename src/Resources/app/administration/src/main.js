@@ -6,6 +6,8 @@ import './module/sw-cms/blocks/text/text-two';
 import './module/sw-cms/blocks/text/text-two-button';
 import './module/sw-cms/blocks/text/text-one';
 import './module/sw-cms/blocks/text/text-headline';
+import './module/sw-cms/blocks/text/text-headline-top';
+import './module/sw-cms/blocks/text/text-headline-hummer';
 import './module/sw-cms/blocks/text/text-address';
 
 import './module/sw-cms/blocks/form/form-two';

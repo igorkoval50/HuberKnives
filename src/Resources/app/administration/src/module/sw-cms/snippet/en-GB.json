@@ -17,7 +17,7 @@
                     "label": "Two columns text"
                 },
                 "textTwoButton": {
-                    "label": "Two columns text and button"
+                    "label": "Two columns text aand button"
                 },
                 "textOne": {
                     "label": "One columns text"
@@ -26,7 +26,13 @@
                     "label": "Address info"
                 },
                 "textHeadline": {
-                    "label": "Custom headline"
+                    "label": "Headline Bottom"
+                },
+                "textHeadlineTop": {
+                    "label": "Headline Top"
+                },
+                "textHeadlineHummer": {
+                    "label": "Headline Hummer"
                 }
             },
             "form": {

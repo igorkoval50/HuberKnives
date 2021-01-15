@@ -14,7 +14,7 @@
                     "label": "Text mit vier Spalten"
                 },
                 "textHeadline": {
-                    "label": "Benutzerdefinierte Überschrift"
+                    "label": "Überschrift Unten"
                 },
                 "textTwo": {
                     "label": "Text mit zwei Spalten"
@@ -27,6 +27,12 @@
                 },
                 "textAddress": {
                     "label": "Adressinfo"
+                },
+                "textHeadlineTop": {
+                    "label": "Überschrift Oben"
+                },
+                "textHeadlineHummer": {
+                    "label": "Schlagzeile Hummer"
                 }
             },
             "form": {
